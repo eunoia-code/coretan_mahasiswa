@@ -7,6 +7,7 @@
         <span>Coretan Mahasiswa</span>
         <div class="uk-width-expand"></div>
         <button mat-button (click)="logout()">Logout</button>
+        <mat-icon matListIcon>exit_to_app</mat-icon>
     </mat-toolbar>
     <!--end toolbar-->
     
@@ -18,11 +19,11 @@
     
       <mat-nav-list>
         <mat-list-item routerLink="/admin/dashboard">
-            <mat-icon matListIcon>dashboard</mat-icon>
-            <h3 matLine>Dashboard</h3>
+            <mat-icon matListIcon>account_box</mat-icon>
+            <h3 matLine>Profile</h3>
         </mat-list-item>
         <mat-list-item routerLink="/admin/product">
-            <mat-icon matListIcon>camera_enhance</mat-icon>        
+            <mat-icon matListIcon>folder</mat-icon>        
             <h3 matLine>Folder</h3>
         </mat-list-item>
  
