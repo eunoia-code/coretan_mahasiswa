@@ -65,5 +65,5 @@ export const MaterialDesign = [
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule
+    MatTreeModule,
 ]
