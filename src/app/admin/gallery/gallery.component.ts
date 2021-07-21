@@ -27,7 +27,7 @@ export class GalleryComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
      //close dialog callback
      if(result!=false)
-     this.images.push(result);   
+      this.images.push(result);
     });
   }
 
